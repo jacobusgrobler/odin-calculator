@@ -9,10 +9,6 @@
     src: url(fonts/pocket-calculator/pocket_calcuatlor_ot.otf);
 }
 
-body{
-   /* align-content: center; */
-}
-
 .calculatorbody{
     display: flex;
     flex-direction: column;
