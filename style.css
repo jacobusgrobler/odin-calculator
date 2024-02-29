@@ -1,0 +1,63 @@
+:root{
+    margin: 1px;
+    padding: 1px;
+    font-family: calculator;
+}
+
+@font-face {
+    font-family: calculator;
+    src: url(fonts/pocket-calculator/pocket_calcuatlor_ot.otf);
+}
+
+body{
+   /* align-content: center; */
+}
+
+.calculatorbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid rgb(210, 208, 230) 2px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
+    padding: 5px;
+    width: 400px;
+    height: 400px;    
+}
+
+.screen{
+    border: solid rgb(210, 208, 230) 2px;
+    border-radius: 8px;
+    padding: 5px;
+    min-width: 150px;
+    min-height: 30px;
+}
+
+.numbergrid{
+    padding-top: 20px;
+    display: grid flex;
+    flex-direction: row;
+    border-radius: 50%;
+    border: solid rgb(210, 208, 230) 2px;;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
+}
+
+.btn{
+    flex: auto;
+    border: solid rgb(210, 208, 230) 2px;;
+    padding-top: 50spx;
+    width: 50px;
+    height: 50px;
+}
+
+.funk{
+    border: solid black 2px;
+    padding: 5px;
+}
