@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <div class="calculatorbody">
-        <div class="screen"></div>
-          <div class="numbergrid">
+      <div class="screen">
+        <div class="prevnum"></div>
+        <div class="curnum">0</div>
+      </div>
+      <div class="numbergrid">
             <div class="center">
               <button class="btn one">1</button>
               <button class="btn two">2</button>
@@ -22,16 +25,16 @@
               <button class="btn eight">8</button>
               <button class="btn nine">9</button>
               <button class="btn zero">0</button>
-              <span class="make">BALLCULATER</span>
+              <button class="btn dot">.</button>
+              <button class="btn equals">=</button>
             </div>
           </div>
-        <div class="functionbuttongrid">
+          <div class="functionbuttongrid">
             <div class="curve">
                 <button class="funk plus">+</button>
                 <button class="funk minus">-</button>
                 <button class="funk times">x</button>
-                <button class="funk devide">/</button>
-                <button class="funk dot">.</button>
+                <button class="funk divide">/</button>
                 <button class="funk clear">C</button>
                 <button class="funk clearall">CA</button>
             </div>  

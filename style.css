@@ -19,7 +19,7 @@
     border-radius: 50%;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
     box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
-    padding: 5px;
+    
     width: 400px;
     height: 400px;    
 }
@@ -27,27 +27,29 @@
 .screen{
     border: solid rgb(210, 208, 230) 2px;
     border-radius: 8px;
-    padding: 5px;
-    min-width: 150px;
-    min-height: 30px;
+    margin-top: 20px;
+    min-width: 170px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.curnum {
+font-size: 20px;
 }
 
 .numbergrid{
     display: grid flex;
     flex-direction: row;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
     padding: 5px;
     width: 250px;
     height: 250px;
 }
 
 .center{
-    padding-top: 15px;
-}
-.make{
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
+    padding-left: 5px;
 }
 
 .btn{
@@ -63,15 +65,16 @@
 }
 
 .curve{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     gap: 5px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .funk{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(200,200,200,1) 100%);
     box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
     border: dotted rgb(161, 159, 177) 1.56789px;
