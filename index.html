@@ -8,39 +8,37 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-  <form class="theform">
     <div class="calculatorbody">
       <div class="screen">
-        <div class="previous-operand">a</div>
-        <div class="current-operand">b</div>
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
       </div>
       <div class="numbergrid">
             <div class="center">
-              <button class="btn one" data-type="operand" value="1">1</button>
-              <button class="btn two" data-type="operand" value="2">2</button>
-              <button class="btn three" data-type="operand" value="3">3</button>
-              <button class="btn four" data-type="operand" value="4">4</button>
-              <button class="btn five" data-type="operand" value="5">5</button>
-              <button class="btn six" data-type="operand" value="6">6</button>
-              <button class="btn seven" data-type="operand" value="7">7</button>
-              <button class="btn eight" data-type="operand" value="8">8</button>
-              <button class="btn nine" data-type="operand" value="9">9</button>
-              <button class="btn zero" data-type="operand" value="0">0</button>
-              <button class="btn dot" data-type="operand" value=".">.</button>
-              <button class="btn equals" data-type="operator" value="=">=</button>
+              <button class="btn one" data-number>1</button>
+              <button class="btn two" data-number>2</button>
+              <button class="btn three" data-number>3</button>
+              <button class="btn four" data-number>4</button>
+              <button class="btn five" data-number>5</button>
+              <button class="btn six" data-number>6</button>
+              <button class="btn seven" data-number>7</button>
+              <button class="btn eight" data-number>8</button>
+              <button class="btn nine" data-number>9</button>
+              <button class="btn zero" data-number>0</button>
+              <button class="btn dot" data-number>.</button>
+              <button class="btn equals" data-equals>=</button>
             </div>
           </div>
           <div class="functionbuttongrid">
             <div class="curve">
-                <button class="funk plus" data-type="operator" value="+">+</button>
-                <button class="funk minus" data-type="operator" value="-">-</button>
-                <button class="funk times" data-type="operator" value="x">x</button>
-                <button class="funk divide" data-type="operator" value="/">/</button>
-                <button class="funk percent" data-type="operator" value="%">%</button>
-                <button class="funk clearall" data-type="clear" value="clear">CA</button>
+                <button class="funk plus" data-operation>+</button>
+                <button class="funk minus" data-operation>-</button>
+                <button class="funk times" data-operation>x</button>
+                <button class="funk divide" data-operation>/</button>
+                <button class="funk percent" data-clear>C</button>
+                <button class="funk clearall" data-clear-all>CA</button>
             </div>  
         </div>
-    </div>
-  </form>  
+    </div> 
 </body>
 </html>
