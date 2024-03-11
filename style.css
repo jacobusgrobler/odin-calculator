@@ -1,15 +1,9 @@
 :root{
-    margin: 1px;
     padding: 1px;
-    font-family: calculator;
-}
-
-@font-face {
-    font-family: calculator;
-    src: url(fonts/pocket-calculator/pocket_calcuatlor_ot.otf);
 }
 
 .calculatorbody{
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
