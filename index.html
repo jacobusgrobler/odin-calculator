@@ -11,7 +11,8 @@
   <form class="theform">
     <div class="calculatorbody">
       <div class="screen">
-        <input class="curnum" type="text" disabled value="0" id="output"/>
+        <div class="previous-operand">a</div>
+        <div class="current-operand">b</div>
       </div>
       <div class="numbergrid">
             <div class="center">
@@ -26,7 +27,7 @@
               <button class="btn nine" data-type="operand" value="9">9</button>
               <button class="btn zero" data-type="operand" value="0">0</button>
               <button class="btn dot" data-type="operand" value=".">.</button>
-              <button class="btn equals">=</button>
+              <button class="btn equals" data-type="operator" value="=">=</button>
             </div>
           </div>
           <div class="functionbuttongrid">

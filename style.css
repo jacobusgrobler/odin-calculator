@@ -31,13 +31,15 @@
     min-width: 170px;
     min-height: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: right;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .curnum {
 font-size: 20px;
-text-align: right;
 }
 
 .numbergrid{
@@ -63,6 +65,7 @@ text-align: right;
     width: 45px;
     height: 45px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .curve{
@@ -80,5 +83,6 @@ text-align: right;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.5), inset 0px 5px 15px rgba(255,255,255,0.5);
     border: dotted rgb(161, 159, 177) 1.56789px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
