@@ -20,7 +20,8 @@ class Calculator {
   appendNumber(number) {
     if (
       (number === "." && this.currentOperand.includes(".")) ||
-      this.currentOperand.length > 8
+      this.currentOperand.length >= 10 ||
+      (this.currentOperand === '0' && number === '0')
     )
       return;
     this.currentOperand = this.currentOperand.toString() + number.toString();
@@ -53,10 +54,15 @@ class Calculator {
         computation = prev * current
         break
       case "/": 
+      if (current === 0) {
+        this.currentOperand = "A Snarky Message";
+        return;
+      }
         computation = prev / current
         break
       default: return
     }
+    
     this.currentOperand = computation;
     this.previousOperand = '';
     this.operation = undefined
